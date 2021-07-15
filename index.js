@@ -4,7 +4,7 @@ const app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('I like  twice!');
+    res.send('I like  소녀시대!');
 });
 
 app.get('/start', function(req, res){
